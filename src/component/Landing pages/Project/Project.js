@@ -18,7 +18,7 @@ function Project() {
     {
       title: "Portfolio",
       description:
-        "Made a portfolio to show off the my journey. It's easy to use, letting people check out all the stuff the I have done. Everything's picked carefully to show off my talents and story.",
+        "Made a portfolio to show off my journey. It's easy to use, letting people check out all the stuff I have done. Everything's picked carefully to show off my talents and story.",
       demoLink: "#",
     },
   ];
