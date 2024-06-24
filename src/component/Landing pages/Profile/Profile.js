@@ -4,7 +4,7 @@ import './Profile.css';
 
 function Profile() {
   return (
-    <section id="profile" className="profile">
+    <div id="profile" className="profile">
       <div className="section__pic-container profile-image-container">
         <img src={profileImage} alt="Profile pic" />
       </div>
@@ -25,7 +25,7 @@ function Profile() {
           </a>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 

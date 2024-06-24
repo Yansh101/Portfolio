@@ -9,9 +9,9 @@ function Navbar() {
         </div>
         <div>
         <ul className="nav-links">
-          <li><a href="../Landing pages/About.js" className='links'>About</a></li>
-          <li><a href="../Landing pages/Project.js" className='links'>Project</a></li>
-          <li><a href="../Landing pages/Contact.js" className='links'>Contact</a></li>
+          <li><a href="#about" className='links'>About</a></li>
+          <li><a href="#project" className='links'>Project</a></li>
+          <li><a href="#contact" className='links'>Contact</a></li>
         </ul>
         </div>
     </nav>
