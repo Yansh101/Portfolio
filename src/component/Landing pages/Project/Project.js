@@ -68,7 +68,12 @@ function Project() {
           <div className="contact-info-container">
             <img src="images/email.png" className="contact-icon" alt="Email" />
             <p>
-              <a href="mailto:priyanshu1.joshi@gmail.com" className="mail">
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=priyanshu1.joshi@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+                className="mail"
+              >
                 priyanshu1.joshi@gmail.com
               </a>
             </p>

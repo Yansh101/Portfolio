@@ -1,4 +1,143 @@
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
+/* Navbar media queries */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo:after {
+    font-size: 1.5rem;
+    
+    
+  }
+
+  .links {
+    font-size: 0.875rem;
+  }
+
+  .container {
+    padding: 10px;
+  }
+}
+
+/* Footer media queries */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .social-icons {
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
+
+/* About media queries */
+@media (max-width: 768px) {
+  .section-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-container {
+    text-align: center;
+  }
+
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill-card {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+    .profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      height: 100vh;
+      padding: 20px;
+    }
+  
+    .profile-info {
+      text-align: center;
+      margin: 0;
+      margin-bottom: 20px;
+    }
+  
+    .profile-image-container {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .profile-image-container img {
+      width: 250px;      /* Set a fixed width for the image */
+      height: 250px;     /* Set a fixed height for the image */
+      max-width: 80%;    /* Ensure it doesn't exceed the container's width */
+      border-radius: 50%; /* Make the image circular */
+      object-fit: cover; 
+      margin-right: 25%;
+    }
+  
+    .btn-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      width: 100%;
+    }
+  
+    .socialcontainer {
+      margin-top: 10px;
+      justify-content: center;
+      display: flex;
+      gap: 10px;
+    }
+  }
+  
+
+/* Project media queries */
+@media (max-width: 768px) {
+  .projects-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .contact-info-upper-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info-container {
+    margin-bottom: 10px;
+  }
+}
