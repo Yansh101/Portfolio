@@ -2,7 +2,6 @@ import React from "react";
 import "./project.css";
 
 function Project() {
-  
   const projects = [
     {
       title: "Waste Segregation Robot",
@@ -63,7 +62,7 @@ function Project() {
       </div>
 
       {/* Contact section */}
-      <section id="contact" className="contact-section">
+      <div id="contact" className="contact-section">
         <h1>Contact Me</h1>
         <div className="contact-info-upper-container">
           <div className="contact-info-container">
@@ -75,7 +74,11 @@ function Project() {
             </p>
           </div>
           <div className="contact-info-container">
-            <img src="images/phone.png" className="icon contact-icon" alt="Phone" />
+            <img
+              src="images/phone.png"
+              className="icon contact-icon"
+              alt="Phone"
+            />
             <p>
               <a href="tel:+977 9860569464" className="mail">
                 +977 9860569464
@@ -83,7 +86,7 @@ function Project() {
             </p>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   );
 }

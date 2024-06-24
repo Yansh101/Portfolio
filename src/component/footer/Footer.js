@@ -26,7 +26,6 @@ function Footer() {
           </li>
         </ul>
       </div>
-      <div className="spacer"></div>
       <div className="text">
         &copy; {year} Priyanshu Joshi. All rights reserved.
       </div>

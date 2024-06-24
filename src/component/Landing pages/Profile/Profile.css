@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   padding: 0;
@@ -20,7 +19,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-left: 3%;
-  margin-right: 2.5rem; 
+  margin-right: 2.5rem;
 }
 
 .profile-image-container img {
@@ -32,10 +31,9 @@ body {
 }
 
 .profile-info {
-  flex: 2; 
+  flex: 2;
   text-align: center;
-  margin-left: 10rem; 
-
+  margin-left: 10rem;
 }
 
 section {
@@ -47,23 +45,22 @@ section {
 }
 
 .sectionp1 {
-
   font-size: 18px;
   font-weight: 600;
   color: #6e6e6e;
-  margin: 0; 
+  margin: 0;
 }
 
-.profile-info, .title{
+.profile-info,
+.title {
   font-weight: 600;
-
 }
 
 .sectionp2 {
-  font-size: 22px; 
+  font-size: 22px;
   font-weight: 600;
   color: #555;
-  margin: 0; 
+  margin: 0;
 }
 
 .btn-container {
